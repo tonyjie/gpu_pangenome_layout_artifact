@@ -1,0 +1,29 @@
+===== Run Path Stress Verification with chromosome: HLA-DRB1 =====
+=== Layout: DRB1-3123_11 ===
+compute the sampled path-stress using GPU
+CUDA kernel to compute sampled path stress
+path_stress: 142.52
+Compute STDDEV......
+stddev: 10896.8
+95% confidence interval: [131.113, 153.928]
+=== Layout: DRB1-3123_13 ===
+compute the sampled path-stress using GPU
+CUDA kernel to compute sampled path stress
+path_stress: 22.3804
+Compute STDDEV......
+stddev: 2002.8
+95% confidence interval: [20.2837, 24.4771]
+=== Layout: DRB1-3123_15 ===
+compute the sampled path-stress using GPU
+CUDA kernel to compute sampled path stress
+path_stress: 1.33106
+Compute STDDEV......
+stddev: 225.168
+95% confidence interval: [1.09534, 1.56679]
+=== Layout: DRB1-3123_29 ===
+compute the sampled path-stress using GPU
+CUDA kernel to compute sampled path stress
+path_stress: 0.0721967
+Compute STDDEV......
+stddev: 2.25722
+95% confidence interval: [0.0698337, 0.0745597]
