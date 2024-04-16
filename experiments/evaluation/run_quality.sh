@@ -1,6 +1,6 @@
 #!/bin/bash
 # Quality Evaluation: run [odgi tension] to check quality comparison (sampled path stress) for CPU and GPU layouts
-# Estimate time: 1 hour
+# Estimate time: 2 hour
 # branch: gpu_data_reuse
 
 # Directories inside Docker container
