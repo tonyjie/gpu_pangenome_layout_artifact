@@ -85,9 +85,9 @@ pangenome_dataset/
 ### Compare CPU and GPU-generated layout images by visual inspection
 For each chromosome, you can compare the CPU-generated and GPU-generated layout images by visual inspection from `images_cpu/` and `images_gpu/`. 
 Human eyes are hard to tell the difference between them. 
-GPU layouts show the same structural variants of the pangenomes, and provide all the information that genomcis researchers need from the pangenome layout. 
+GPU layouts show the same structural variants of the pangenomes, and provide all the information that genomics researchers need from the pangenome layout. 
 
-You can also validate the correctness of layout figures by compairing them to the [original algorithm paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10542513/) Fig. 2. 
+You can also validate the correctness of layout figures by comparing them to the [original algorithm paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10542513/) Fig. 2. 
 
 ## 3. Artifact Scripts to reproduce key results
 Artifact scripts are included in the current Github repo. 
