@@ -101,7 +101,7 @@ The artifact scripts are run within the docker container.
 ```
 git clone git@github.com:tonyjie/gpu_pangenome_layout_artifact.git
 ```
-`/your/path/to/gpu_pangenome_layout_artifact/experiments` is the saved directory path. 
+`/your/path/to/gpu_pangenome_layout_artifact/` is the saved directory path. 
 
 
 ### Run Docker container with mounted volume of dataset and artifact script
