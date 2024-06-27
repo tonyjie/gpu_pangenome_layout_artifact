@@ -101,14 +101,14 @@ The artifact scripts are run within the docker container.
 ```
 git clone git@github.com:tonyjie/gpu_pangenome_layout_artifact.git
 ```
-`/your/path/to/experiments` is the saved directory path. 
+`/your/path/to/gpu_pangenome_layout_artifact/experiments` is the saved directory path. 
 
 
 ### Run Docker container with mounted volume of dataset and artifact script
-Remember to replace `/your/path/to/pangenome_dataset/` and `/your/path/to/experiments` with your own local directories. 
+Remember to replace `/your/path/to/pangenome_dataset/` and `/your/path/to/gpu_pangenome_layout_artifact/experiments` with your own local directories. 
 
 ```
-docker run --gpus all -v /your/path/to/pangenome_dataset/:/root/pangenome_dataset -v /your/path/to/experiments:/root/experiments -it tonyjie/gpu-pangenome-layout /bin/bash
+docker run --gpus all -v /your/path/to/pangenome_dataset/:/root/pangenome_dataset -v /your/path/to/gpu_pangenome_layout_artifact/experiments:/root/experiments -it tonyjie/gpu-pangenome-layout /bin/bash
 ```
 Now you run the container in an interactive mode with the mounted dataset and artifact scripts. 
 
