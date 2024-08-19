@@ -11,7 +11,7 @@ WORK_DIR="${HOME_DIR}/evaluation"
 
 NUM_THREAD="32"
 
-LOG_FILE="${HOME_DIR}/run_quality.log"
+LOG_FILE="${WORK_DIR}/run_quality.log"
 if [ -f "${LOG_FILE}" ]; then
     rm ${LOG_FILE}
 fi
